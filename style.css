@@ -1,0 +1,72 @@
+.menu{
+    padding:20px;
+}
+.menu a{
+    margin-right: 10px;
+}
+
+/**{
+    border: solid;
+}*/
+
+
+
+body{
+    background-color: rgb(170, 170, 8);
+}
+
+h1{
+    color: red;
+    padding-left: 20px;
+}
+
+
+h2,  p{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    background-color: seagreen;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    position : relative;
+}
+.item p{
+    position : absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    color: brown;
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.25;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: purple;
+}
